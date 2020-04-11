@@ -21,7 +21,7 @@ i = 1
 print("Iteration Number", "Qab", "Qad", "Qbd", "Qbc", "Qcd")
 # Loop to find the value
 while (e1 > error or e2 > error):
-    print(i, Qab, Qad, Qbd, Qbc, Qcd, e1, e2)
+    print(i, Qab, Qad, Qbd, Qbc, Qcd)
     # For loop 1
     num1 = Rab * abs(Qab) * Qab + Rbd * abs(Qbd) * Qbd - Rad * abs(Qad) * Qad
     den1 = 2 * (Rab * abs(Qab) + Rbd * abs(Qbd) + Rad * abs(Qad))
