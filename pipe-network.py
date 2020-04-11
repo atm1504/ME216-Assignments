@@ -1,7 +1,7 @@
 # Code to solve pipe network problem. Assignment 2
 # The code has been written by Amartya Mondal. It has not been copied from anywhere. So all copyrights are reserved by atm1504.
 # For more info visit:
-# GitHub: https://github.com/atm1504/
+# GitHub: https://github.com/atm1504/ME216-Assignments
 # Website: https://atm1504.in
 
 error = 0.000001
