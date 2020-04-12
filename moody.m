@@ -1,20 +1,4 @@
 function moody(my_epsilon,my_Re,epsilon_list)
-%MOODY Plots the Moody chart
-%
-%   Syntax:
-%      MOODY
-%      MOODY(my_epsilon)
-%      MOODY(my_epsilon,my_Re)
-%      MOODY(my_epsilon,my_Re,epsilon_list)
-%
-%   Author:
-%      Ildeberto de los Santos Ruiz
-%      idelossantos@ittg.edu.mx
-%
-%   References:
-%      [1] Moody, L. F. (1944), "Friction factors for pipe flow",
-%          Transactions of the ASME, 66 (8): 671–684
-
 clf
 Re = logspace(2,8,1000);
 if nargin > 0
